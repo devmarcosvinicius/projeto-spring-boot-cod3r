@@ -11,14 +11,14 @@ Este é um projeto Java Spring Boot do curso Cod3r feito na Udemy.
 ## Como executar o projeto ▶️
 
 1. Certifique-se de ter o Java JDK 20 ou superior instalado em seu sistema.
-2. Clone este repositório para o seu ambiente local 📂.
+2. Clone este repositório para o seu ambiente local.
 3. Abra o projeto em sua IDE favorita (por exemplo, IntelliJ, Eclipse).
 4. Certifique-se de que sua IDE reconheça o projeto como um projeto Maven, para que as dependências sejam resolvidas automaticamente.
 5. Execute a classe "ExerciciossbApplication" para iniciar a aplicação Spring Boot.
 
 O H2 Database é uma dependência do Maven e será baixado e configurado automaticamente durante a execução do projeto. Não há necessidade de instalação adicional do banco de dados, pois o H2 Database é executado em memória para fins de desenvolvimento.
 
-Após a execução da aplicação, você poderá acessar o console do H2 Database em: [http://localhost:8080/h2-console](http://localhost:8080/h2-console) 🗄️. As configurações de conexão padrão são definidas no arquivo "src/main/resources/application.properties".
+Após a execução da aplicação, você poderá acessar o console do H2 Database em: [http://localhost:8080/h2-console](http://localhost:8080/h2-console). As configurações de conexão padrão são definidas no arquivo "src/main/resources/application.properties".
 
 Lembre-se de que o H2 Database é uma solução em memória e não é recomendado para uso em produção. Caso deseje utilizar um banco de dados diferente em produção, você precisará ajustar as configurações do arquivo "application.properties" de acordo.
 
